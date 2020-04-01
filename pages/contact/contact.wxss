@@ -1,0 +1,115 @@
+/* pages/contact/contact.wxss */
+
+.where_come {
+  height: 66rpx;
+}
+
+.where_title {
+  /* color: black; */
+  font-weight: bolder;
+  margin: 25rpx;
+  font-size: 35rpx;
+  color: gray;
+
+}
+
+/* ---------------------- */
+
+.number_call {
+  color: #1296db;
+  transform: translate(53rpx, -54rpx);
+}
+
+.phone-calling {
+  width: 50rpx;
+  height: 50rpx;
+  transform: translateY(4rpx);
+}
+
+.phone_area {
+  width: 480rpx;
+  transform: translate(77rpx, -45rpx);
+}
+
+/* ---------------------- */
+
+.map-v {
+  height: 100px;
+}
+
+/* ---------------------- */
+
+.top_whole_head {
+  text-align: center;
+}
+
+.imitate_hr {
+  background: #c2c2c2;
+  width: 100%;
+  height: 5rpx;
+}
+
+.gray_zone {
+  background: #e5e5e5;
+  width: 100%;
+  height: 65rpx;
+}
+
+.title_h2 {
+  height: 63rpx;
+}
+
+.little_exe_introd {
+  text-align: left;
+  padding: 0 0 0 4rpx;
+  transform: translateY(10rpx);
+}
+
+.child_0_sp {
+  font-size: 34rpx;
+  font-weight: bold;
+}
+
+.child_1_sp {
+  color: #6a6667;
+}
+
+.imitate_hr_e {
+  width: 98%;
+  margin: auto 0 0 1%;
+  background: #e2e5db;
+  height: 5rpx;
+}
+
+.title_items {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.introducation_title {
+  padding-left: 15rpx;
+  height: 65rpx;
+  transform: translateY(10rpx);
+}
+
+/* ---------------------- */
+
+.gorgeous-star-sky1 {
+  height: 269rpx;
+  width: 100%;
+}
+
+.safe-moving-sign {
+  transform: translateY(0rpx);
+  width: 222rpx;
+  height: 141rpx;
+}
+
+.safe-moving_ {
+  width: 222rpx;
+  height: 141rpx;
+  background: #fff no-repeat center center;
+  transform: translate(118%, -46px);
+}
+
+/* ---------------------- */

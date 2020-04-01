@@ -1,0 +1,237 @@
+<view>
+
+  <!--  -->
+  <view class="whole-top">
+    <view class="swiper-container">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+        <block wx:for="{{imgUrls}}" wx:key="unique">
+          <swiper-item>
+            <image src="{{item}}" class="img" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+
+  <!--  -->
+  <view class="view-btn-0" bindtap="to_call">
+    <button>
+      <view class="long-key-call">
+        <text>一键拨打：0371-55555288</text>
+      </view>
+    </button>
+  </view>
+
+  <!--  -->
+  <view class="albums_potent">
+    <view class="v_potent">
+      <view class="ul">
+
+        <view class="li">
+          <view class="album_icon">
+            <image src="../../assets/album_icon/small-piece-moving-0.png"></image>
+          </view>
+          <text>小件搬家</text>
+        </view>
+
+        <view class="li">
+          <view class="album_icon">
+            <image src="../../assets/album_icon/moving-at-home-0.png"></image>
+          </view>
+          <text>居家搬家</text>
+        </view>
+
+        <view class="li">
+          <view class="album_icon">
+            <image src="../../assets/album_icon/long-distance-move-0.png"></image>
+          </view>
+          <text>长途搬家</text>
+        </view>
+
+        <view class="li">
+          <view class="album_icon">
+            <image src="../../assets/album_icon/boutique-move-1.png"></image>
+          </view>
+          <text>精品搬家</text>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="v_potent">
+      <view>
+
+        <view class="li">
+          <view class="album_icon">
+            <image src="../../assets/album_icon/office-relocation-0.png"></image>
+          </view>
+          <text>办公室搬迁</text>
+        </view>
+
+        <view class="li">
+          <view class="album_icon">
+            <image src="../../assets/album_icon/cost-standard-0.png"></image>
+          </view>
+          <text>收费标准</text>
+        </view>
+
+        <view class="li">
+          <view class="album_icon">
+            <image src="../../assets/album_icon/company-introduction-0.png"></image>
+          </view>
+          <text>公司简介</text>
+        </view>
+
+        <view class="li">
+          <view class="album_icon">
+            <image src="../../assets/album_icon/concate-our-0.png"></image>
+          </view>
+          <text>联系我们</text>
+        </view>
+
+      </view>
+
+    </view>
+  </view>
+
+  <!--  -->
+  <view class="_case_exhibi">
+    <view class="title_h1">
+      <view class="_line border_line border_line_0"></view>
+      <text class="p_case_exhibi _line">案例展示</text>
+      <view class="_line border_line border_line_1"></view>
+    </view>
+  </view>
+
+  <!--  -->
+  <view class="case_move_area">
+    <!-- 第一行列 -->
+    <view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/0.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+
+      </view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/1.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+      </view>
+    </view>
+    <!-- 第2行列 -->
+    <view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/2.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+
+      </view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/3.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 第3行列 -->
+    <view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/4.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+
+      </view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/5.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+      </view>
+    </view>
+    <!-- 第4行列 -->
+    <view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/6.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+
+      </view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/7.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+      </view>
+    </view>
+    <!-- 第5行列 -->
+    <view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/8.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+
+      </view>
+      <view class="img_case_move">
+        <image src="../../assets/moving-case/9.jpg"></image>
+
+        <view class="description">
+          <text>搬家案例</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <!--  -->
+  <view class="support_view">
+    <text>北京即速应用支持15313378676</text>
+  </view>
+  <!--  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

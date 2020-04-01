@@ -1,0 +1,106 @@
+/* ------------------ */
+
+/* ------------------ */
+
+/* ------------------ */
+
+.moving_profile {
+  margin: 10rpx 0 54rpx 0;
+}
+
+.high_light {
+  text-align: center;
+  margin: 10rpx 0 44rpx 0;
+  font-weight: 1000;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+._h1 {
+  font-size: 44rpx;
+  margin: 24rpx 0;
+}
+
+.profile_text text {
+  /* text-indent: 60rpx; */
+  text-align: left;
+}
+
+._p {
+  margin-top: 19rpx;
+}
+
+._span {
+  padding: 0 0 0 50rpx;
+}
+
+._span_sp {
+  padding-left: 50rpx;
+}
+
+.profile_text {
+  margin: 0 0 0 5%;
+  width: 90%;
+}
+
+/* ------------------ */
+
+._line {
+  display: inline-block;
+}
+
+.border_line {
+  width: 140rpx;
+  height: 7rpx;
+  background: #b3acac;
+}
+
+.border_line_0 {
+  transform: translate(-19rpx, -10rpx);
+}
+
+.border_line_1 {
+  transform: translate(19rpx, -10rpx);
+}
+
+._case_exhibi {
+  margin: 12rpx 0 0 0;
+}
+
+.p_case_exhibi {
+  font-size: 38rpx;
+  font-weight: bold;
+}
+
+.title_h1 {
+  text-align: center;
+}
+
+/* ------------------ */
+
+.whole-top {
+  background: #eae8ec;
+  height: 380rpx;
+}
+
+swiper {
+  height: 380rpx;
+}
+
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container {
+  position: relative;
+}
+
+.swiper-container .swiper {
+  height: 380rpx;
+}
+
+.swiper-container .swiper .img {
+  width: 100%;
+  height: 100%;
+}

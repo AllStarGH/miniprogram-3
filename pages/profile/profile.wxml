@@ -1,0 +1,68 @@
+<view>
+  <!--  -->
+  <view class="whole-top">
+    <view class="swiper-container">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+        <block wx:for="{{imgUrls}}" wx:key="unique">
+          <swiper-item>
+            <image src="{{item}}" class="img" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <!--  -->
+  <view class="_case_exhibi">
+    <view class="title_h1">
+      <view class="_line border_line border_line_0"></view>
+      <text class="p_case_exhibi _line">公司介绍</text>
+      <view class="_line border_line border_line_1"></view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="moving_profile">
+    <view class="profile_text">
+      <view class="_p">
+        <text class="_span">郑州平平安安搬家有限公司于1998年8月8日成立，</text> 具有十几年搬家运输历程，自备大小车车辆30多台，员工60余人。在金水、二七、中原、管城、惠济区均设立了分部。形成了区域内的郑州搬家运输网络。我们之所以在郑州各区都成立了郑州搬家分公司，目的就是为了方便广大市民能够及时的，容易的找到一家最好的 郑州搬家公司 ，如果您要搬家，就找郑州平安搬家公司，选择我们，选择放心！“客户至上，诚信为本”是郑州平安搬家公司的服务宗旨，郑州平安搬家公司昼夜为你提供搬家服务。数年来积极参与社会公益活动和抢险救灾工作，取得了明显的社会效益，经常参与市大、中专院校和企事业单位的搬家运输工作，受到了社会各界人士的赞扬。
+      </view>
+      <view class="_p">
+        <text class="_span">我们十分注重人才的储备和培养工作，</text>近几年先后聘请了一批具有大专、本科学历的人才充实管理队伍，提高专业管理水平，应对市场的挑战和竞争。还安排一批下岗员工，努力减轻政府的负担。对驾驶员、员工进行安全性能教育和考核，使员工队伍始终保持一种蓬勃向上的良好精神状态。
+      </view>
+    </view>
+    <view class="high_light">
+      <view class="_h1">
+        <text>
+        <text class="_span_sp">
+        我们的宗旨是：</text> 客户第一，诚信为本，文明服务
+        </text>
+      </view>
+      <view class="_h1">
+        <text>郑州搬家公司电话：15378721211</text>
+      </view>
+    </view>
+  </view>
+  <!--  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

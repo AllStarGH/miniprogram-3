@@ -1,0 +1,245 @@
+<view>
+  <view class="title_h2">
+    <view class="title_head">
+      <text class="child_0_sp">计时服务费</text>
+    </view>
+  </view>
+  <view class="remarks">
+    <rich-text style="font-size: 40rpx;font-weight:bold;">
+      仅用工人搬运不需要车辆时，每人每小时收费80元，最低3小时，不足2小时按照100元每人每小时算。
+    </rich-text>
+  </view>
+</view>
+<!--  -->
+<view class="imitate_hr"></view>
+<view class="gray_zone"></view>
+<view class="imitate_hr"></view>
+<!--  -->
+<view class="table">
+  <view class="title_h2">
+    <view class="title_head">
+      <text class="child_0_sp">起价费</text>
+    </view>
+  </view>
+  <view class="tr bg-w">
+    <view class="th">车型</view>
+    <view class="th ">起步费</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+  </block>
+  <view class="remarks">
+    <rich-text>
+      <view>备注：</view>
+      <view>1、上述价格为实际运输距离在十公里（含）以内的每车次单程搬运。 </view>
+      <view>2、每车组不少于2人为用户服务，每辆车都有市区通行证（0:00-24:00）。</view>
+    </rich-text>
+  </view>
+</view>
+<!--  -->
+<view class="imitate_hr"></view>
+<view class="gray_zone"></view>
+<view class="imitate_hr"></view>
+<!--  -->
+<view class="table">
+  <view class="title_h2">
+    <view class="title_head">
+      <text class="child_0_sp">附加费</text>
+    </view>
+  </view>
+  <view class="tr bg-w">
+    <view class="th">费用类型</view>
+    <view class="th">费用说明</view>
+  </view>
+  <block wx:for="{{listData00}}" wx:key="{{code}}">
+    <view class="tr_0 bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">
+        <rich-text>{{item.cost}}</rich-text>
+      </view>
+    </view>
+    <view class="tr_0" wx:else>
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">
+        <rich-text>{{item.cost}}</rich-text>
+      </view>
+    </view>
+  </block>
+  <view class="remarks">
+    <rich-text>
+    </rich-text>
+  </view>
+</view>
+<!--  -->
+<view class="imitate_hr"></view>
+<view class="gray_zone"></view>
+<view class="imitate_hr"></view>
+<!--  -->
+<view class="table">
+  <view class="title_h2">
+    <view class="title_head">
+      <text class="child_0_sp">贵重物品费</text>
+    </view>
+  </view>
+  <view class="tr bg-w">
+    <view class="th">物品</view>
+    <view class="th">收费说明</view>
+  </view>
+  <block wx:for="{{listData01}}" wx:key="{{code}}">
+    <view class="tr_1 bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+    <view class="tr_1" wx:else>
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+  </block>
+  <view class="remarks">
+    <rich-text>
+    </rich-text>
+  </view>
+</view>
+<!--  -->
+<view class="imitate_hr"></view>
+<view class="gray_zone"></view>
+<view class="imitate_hr"></view>
+<!--  -->
+<view class="table">
+  <view class="title_h2">
+    <view class="title_head">
+      <text class="child_0_sp">家具拆装费</text>
+    </view>
+  </view>
+  <view class="tr bg-w">
+    <view class="th">家具</view>
+    <view class="th">费用说明</view>
+  </view>
+  <block wx:for="{{listData02}}" wx:key="{{code}}">
+    <view class="tr_2 bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+    <view class="tr_2" wx:else>
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+  </block>
+  <view class="remarks">
+    <rich-text>
+      备注：根据实际情况价格会有所浮动
+    </rich-text>
+  </view>
+</view>
+<!--  -->
+<view class="imitate_hr"></view>
+<view class="gray_zone"></view>
+<view class="imitate_hr"></view>
+<!--  -->
+<view class="table">
+  <view class="title_h2">
+    <view class="title_head">
+      <text class="child_0_sp">空调拆装费</text>
+    </view>
+  </view>
+  <view class="tr bg-w">
+    <view class="th">服务项目</view>
+    <view class="th ">项目费用</view>
+  </view>
+  <block wx:for="{{listData03}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+  </block>
+  <view class="remarks">
+    <rich-text>
+      备注：此收费标准根据市场情况和客户的工作量可以上下浮动，恕不提供其它专业性作业及违反常规的作业。
+    </rich-text>
+  </view>
+</view>
+<!--  -->
+<view class="imitate_hr"></view>
+<view class="gray_zone"></view>
+<view class="imitate_hr"></view>
+<!--  -->
+<!-- <view class="imitate_hr"></view>
+<view class="gray_zone"></view>
+<view class="imitate_hr"></view> -->
+<!--  -->
+<view class="table">
+  <view class="title_h2">
+    <view class="title_head">
+      <text class="child_0_sp">长途运输费</text>
+    </view>
+  </view>
+  <view class="tr bg-w">
+    <view class="th">车辆类型</view>
+    <view class="th ">费用</view>
+  </view>
+  <block wx:for="{{listData04}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+  </block>
+  <view class="remarks">
+    <rich-text>
+      备注：上述价格为每车次单程运输费；以上价格根据实际情况浮动。
+    </rich-text>
+  </view>
+</view>
+<!--  -->
+<view class="imitate_hr"></view>
+<view class="gray_zone"></view>
+<view class="imitate_hr"></view>
+<!--  -->
+<view class="table">
+  <view class="title_h2">
+    <view class="title_head">
+      <text class="child_0_sp">车辆出租搬家拉货</text>
+    </view>
+  </view>
+  <view class="tr bg-w">
+    <view class="th">车辆类型</view>
+    <view class="th ">费用</view>
+  </view>
+  <block wx:for="{{listData05}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.type}}</view>
+      <view class="td td-02">{{item.cost}}</view>
+    </view>
+  </block>
+  <view class="remarks">
+    <rich-text>
+      <view>
+        备注：</view>
+      <view>1、上述价格为实际运输距离在十公里（含）以内的每车次单程搬运。 10公里以外每公里加收8元</view>
+      <view>2、每车配一名司机，每辆车都有市区通行证（0:00-24:00）。</view>
+    </rich-text>
+  </view>
+</view>
+<!--  -->
+<view class="imitate_hr"></view>
+<view class="gray_zone"></view>
+<view class="imitate_hr"></view>
+<!--  -->

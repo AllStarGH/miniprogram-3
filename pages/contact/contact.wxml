@@ -1,0 +1,71 @@
+<!--  -->
+<view>
+  <view>
+    <image src="../../assets/gorgeous-star-sky1.jpg" class="gorgeous-star-sky1"></image>
+  </view>
+  <view>
+    <view class="safe-moving_">
+      <image src="../../assets/safe-moving-sign.jpg" class="safe-moving-sign"></image>
+    </view>
+  </view>
+</view>
+<!--  -->
+<view class="top_whole_head">
+  <view class="title_h2">
+    <text class="child_0_sp">郑州搬家服务公司</text>
+  </view>
+  <view class="imitate_hr"></view>
+  <view class="gray_zone"></view>
+  <view class="imitate_hr"></view>
+  <view class="title_h2">
+    <view class="little_exe_introd">
+      <text class="child_1_sp">本小程序主要负责本地区搬家等业务</text>
+    </view>
+
+  </view>
+  <view class="imitate_hr"></view>
+  <view class="gray_zone"></view>
+  <!-- <view class="imitate_hr"></view> -->
+
+  <!--  -->
+  <view class="title_items">
+    <view class="introducation_title">
+      <text>联系方式</text>
+    </view>
+    <view class="imitate_hr_e"></view>
+    <view class="introducation_title">
+      <text>名称:郑州搬家服务公司</text>
+    </view>
+    <view class="imitate_hr_e"></view>
+    <view class="introducation_title">
+      <text>电话:</text>
+      <view class="phone_area" bindtap="to_call">
+        <image src="../../assets/phone-calling.png" class="phone-calling"></image>
+        <view class="number_call">
+          <text>0371-55555228</text>
+        </view>
+      </view>
+    </view>
+    <view class="imitate_hr_e"></view>
+    <view class="introducation_title">
+      <text>公司地址:郑州市金水区文化路与农业路</text>
+    </view>
+    <view class="imitate_hr_e"></view>
+  </view>
+
+  <view class="gray_zone"></view>
+  <view class="imitate_hr"></view>
+</view>
+<!--  -->
+<view style="text-align:center;" class="where_come">
+  <view class="where_title">
+    <text bindtap="openLocation">到这里去
+    </text>
+  </view>
+</view>
+<!--  -->
+<view class="map-v">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" circles="{{circles}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange"
+    show-location style="width: 100%; height: {{view.Height}}px;"></map>
+</view>
+<!--  -->
