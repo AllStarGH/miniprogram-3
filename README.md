@@ -1,9 +1,6 @@
 # HouseMovingOfWeChat
 一款宣传某家搬家公司的微信小程序
 
-### 生产环境
-manjaro
-
 #### 主要技术
 wxml+css+JavaScript
 
